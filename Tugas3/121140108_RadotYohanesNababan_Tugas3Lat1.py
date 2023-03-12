@@ -40,9 +40,9 @@ class AkunBank:
     
 
 
-Akun1 = AkunBank("1234", "Radot", 500)
-Akun2 = AkunBank("2345", "Ukraina", 600)
-Akun3 = AkunBank("3456", "Elon Musk", 700)
+Akun1 = AkunBank("1234", "Radot", 5000000000)
+Akun2 = AkunBank("2345", "Ukraina", 6666666666)
+Akun3 = AkunBank("3456", "Elon Musk", 9999999999)
 
 Loop = True
 while Loop:

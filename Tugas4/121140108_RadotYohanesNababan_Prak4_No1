@@ -1,6 +1,6 @@
 class Komputer:
 
-    def __init__(self, nama, jenis, harga, merk):
+    def __init__(self, nama, merk, jenis, harga):
         self.nama = nama
         self.jenis = jenis
         self.harga = harga
@@ -8,34 +8,34 @@ class Komputer:
 
 
 class Processor(Komputer):
-    def __init__(self, nama, jenis, harga, merk, jumlah_core, kecepatan_processor):
-        super().__init__(nama, jenis, harga, merk)
+    def __init__(self, nama, merk, jenis, harga, jumlah_core, kecepatan_processor):
+        super().__init__(nama, merk, jenis, harga)
         self.jumlah_core = jumlah_core
         self.kecepatan_processor = kecepatan_processor
 
 
 class RAM(Komputer):
-    def __init__(self, nama, jenis, harga, merk, capacity):
-        super().__init__(nama, jenis, harga, merk)
+    def __init__(self, nama, merk, jenis, harga, capacity):
+        super().__init__(nama, merk, jenis, harga)
         self.capacity = capacity
 
 
 class HDD(Komputer):
-    def __init__(self, nama, jenis, harga, merk, capacity, RPM):
-        super().__init__(nama, jenis, harga, merk)
+    def __init__(self, nama, merk, jenis, harga, capacity, RPM):
+        super().__init__(nama, merk, jenis, harga)
         self.capacity = capacity
         self.RPM = RPM
 
 
 class VGA(Komputer):
-    def __init__(self, nama, jenis, harga, merk, capacity):
-        super().__init__(nama, jenis, harga, merk)
+    def __init__(self, nama, merk, jenis, harga, capacity):
+        super().__init__(nama, merk, jenis, harga)
         self.capacity = capacity
 
 
 class PSU(Komputer):
-    def __init__(self, nama, jenis, harga, merk, daya):
-        super().__init__(nama, jenis, harga, merk)
+    def __init__(self, nama, merk, jenis, harga, daya):
+        super().__init__(nama, merk, jenis, harga)
         self.daya = daya
 
 
